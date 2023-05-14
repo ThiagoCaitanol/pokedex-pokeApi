@@ -13,7 +13,6 @@
     <li>CSS</li>
     <li>JavaScript</li>
 </ul>
-
 <h2>Funcionalidades</h2>
 <ul>
     <li>A responsividade foi implementada utilizando a metodologia Mobile First, o que significa que o layout e o design da página foram desenvolvidos pensando primeiro nos dispositivos móveis.</li>
