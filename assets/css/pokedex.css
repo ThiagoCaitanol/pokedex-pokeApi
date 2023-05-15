@@ -38,3 +38,61 @@ li  {
     font-weight: bold;
     font-size: 20px;
 }
+
+@media screen and (min-width: 450px){
+    ol{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 5px;
+    }
+
+    .info h3 {
+        font-size: 1rem;
+       
+    }
+
+    .info img{
+        width: 4rem;
+    }
+}
+
+@media screen and (min-width: 544px) {
+    .info{
+        gap: 15px
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    ol {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .info{
+        gap: 5px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    ol {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 816px) {
+    .info{
+        gap:15px
+    }
+    main{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
