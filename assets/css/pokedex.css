@@ -1,1 +1,10 @@
 @import url(global.css);
+
+li  {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem; 
+    gap: px;
+}
+

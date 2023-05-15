@@ -1,1 +1,16 @@
 @import url(reset.css);
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+
+#logo{
+    width: 15rem;
+}
+
+main {
+    padding-top: 1rem;
+}
+
