@@ -6,7 +6,6 @@
 <p align="center">
   <img src="assets/images/readme-images/" alt="Exemplo de projeto" />
 </p>
-
 <h2>Tecnologias Utilizadas</h2>
 <ul>
     <li>HTML5</li>
