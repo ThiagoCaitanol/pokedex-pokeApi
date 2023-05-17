@@ -16,14 +16,14 @@ main{
     padding-top: 2rem;
 }
 
-#fundo {
+.fundo {
     position: absolute;
     z-index: -1;
     left: 50%;
     transform: translateX(-50%);
 }
 
-#fundo-pokemon {
+.fundo-pokemon {
     background-color: rgb(145, 145, 145);
     position: relative;
     z-index: -1;
@@ -31,13 +31,13 @@ main{
     border-bottom-right-radius: 50px;
 }
 
-#pokemon {
+.pokemon {
     width: 150px;
     display: block;
     margin: 0 auto;
 }
 
-#info {
+.info {
    display: flex;
    flex-direction: column;
    padding-left: 10px;
@@ -48,27 +48,36 @@ h2{
     font-weight: bold;
 }
 
-#info h6 {
+.info h6 {
     font-size: 15px;
     padding-bottom: 10px;
 }
 
-#caract {
+.caract {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+    gap: 5px;
 }
 
-#caract h3 {
+.caract h3 {
     font-size: 15px;
     font-weight: 100;
     color: rgb(104, 104, 104);
 }
 
-#caract p {
+.caract p {
     text-align: center;
     border: 1px solid rgb(104, 104, 104);
     width: 80%;
+}
+
+.moveset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
