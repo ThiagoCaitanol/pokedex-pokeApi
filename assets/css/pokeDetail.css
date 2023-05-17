@@ -1,1 +1,12 @@
-@import url(global.css);
+@import url(reset.css);
+
+body{
+    background-color: rgb(102, 102, 102);
+}
+
+header {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
