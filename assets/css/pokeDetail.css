@@ -10,3 +10,15 @@ header {
     padding-left: 20px;
 }
 
+#fundo {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#pokemon {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
