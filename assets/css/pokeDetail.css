@@ -1,13 +1,19 @@
 @import url(reset.css);
 
-body{
-    background-color: rgb(102, 102, 102);
-}
+/* body{
+    background-color: rgb(145, 145, 145);
+} */
 
 header {
     position: absolute;
     padding-top: 20px;
     padding-left: 20px;
+    background-color: rgb(145, 145, 145);
+    width: 100%;
+}
+
+main{
+    padding-top: 2rem;
 }
 
 #fundo {
@@ -17,8 +23,52 @@ header {
     transform: translateX(-50%);
 }
 
+#fundo-pokemon {
+    background-color: rgb(145, 145, 145);
+    position: relative;
+    z-index: -1;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
 #pokemon {
     width: 150px;
     display: block;
     margin: 0 auto;
+}
+
+#info {
+   display: flex;
+   flex-direction: column;
+   padding-left: 10px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#info h6 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+#caract {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#caract h3 {
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(104, 104, 104);
+}
+
+#caract p {
+    text-align: center;
+    border: 1px solid rgb(104, 104, 104);
+    width: 80%;
 }
