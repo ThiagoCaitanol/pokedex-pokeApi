@@ -1,8 +1,6 @@
 @import url(reset.css);
 
-/* body{
-    background-color: rgb(145, 145, 145);
-} */
+
 
 header {
     position: absolute;
@@ -79,5 +77,30 @@ h2{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    text-align: justify;
+    gap: 5px;
+    padding-top: 15px;
+
+    
 }
+
+.moveset div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 10px;
+}
+
+.moveset p {
+    border: 1px solid transparent;
+    background-color: rgb(123, 252, 252);
+    border-radius: 8px;
+}
+
+.moveset h3 {
+    font-size: 25px;
+
+}
+
+
