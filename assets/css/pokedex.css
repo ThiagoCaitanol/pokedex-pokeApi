@@ -52,70 +52,189 @@ li  {
 
 .grass {
     background-color: #77c850;
+    background-image: url(../images/elements/grass.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .fire {
     background-color: #ee7f30;
+    background-image: url(../images/elements/fire.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .water {
     background-color: #678fee;
+    background-image: url(../images/elements/water.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .electric {
     background-color: #f7cf2e;
+    background-image: url(../images/elements/eletric.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .ice {
     background-color: #98d5d7;
+    background-image: url(../images/elements/ice.webp); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .ground {
     background-color: #dfbf69;
+    background-image: url(../images/elements/ground.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .flying {
     background-color: #a98ff0;
+    background-image: url(../images/elements/flying.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .poison {
     background-color: #a040a0;
+    background-image: url(../images/elements/poison.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .fighting {
     background-color: #bf3029;
+    background-image: url(../images/elements/fighting.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .psychic {
     background-color: #f65687;
+    background-image: url(../images/elements/psychic.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .dark {
     background-color: #725847;
+    background-image: url(../images/elements/dark.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .rock {
     background-color: #b8a137;
+    background-image: url(../images/elements/rock.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .bug {
     background-color: #a8b720;
+    background-image: url(../images/elements/bug.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .ghost {
     background-color: #6e5896;
+    background-image: url(../images/elements/ghost.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .steel {
     background-color: #b9b7cf;
+    background-image: url(../images/elements/steel.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .dragon {
     background-color: #6f38f6;
+    background-image: url(../images/elements/dragon.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 .fairy {
     background-color: #f9aec7;
+    background-image: url(../images/elements/fairy.png); 
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 100%;
 }
 
 
