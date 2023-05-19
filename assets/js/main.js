@@ -5,7 +5,7 @@ const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
-function convertPokemonToHtml(pokemon) {
+function convertPokemonToLi(pokemon) {
     return `
     <li>
         <div class="info">
@@ -18,7 +18,6 @@ function convertPokemonToHtml(pokemon) {
         </div>
         <figure><img src="${pokemon.photo}" alt="${pokemon.name}" class="${pokemon.type}"></figure>
     </li>
-    
     `
 }
 
@@ -44,13 +43,3 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit);
     }
 })
-
-fetch(url)
-    .then(response => response.json())
-    .then((jsonBody) => jsonBody.results)
-    .then((pokemonList) => {
-        console.log(pokemonList)
-
-        document
-    })
-    .catch((error) => console.log(error));
