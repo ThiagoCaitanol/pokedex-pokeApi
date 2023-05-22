@@ -10,16 +10,24 @@ li  {
     background-color: rgb(245, 245, 245);
 }
 
-/* .pok {
-  background-image: url(../images/elements/grass.png); 
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  background-color: rgb(166, 233, 149);
-  height: 100%;
-} */
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: 0.5rem;
+    width: 5rem;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #0059ff;
+    border: none;
+    border-radius: 12px;
+}
 
 .info {
     display: flex;
