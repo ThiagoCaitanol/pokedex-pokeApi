@@ -1,9 +1,10 @@
 const offset = 0;
-const limit= 10;
+const limit= 13;
 const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
+
 
 function convertPokemonToLi(pokemon) {
     return `
@@ -11,10 +12,12 @@ function convertPokemonToLi(pokemon) {
         <div class="info">
             <h6>#${pokemon.number}</h6>
             <h3>${pokemon.name}</h3>
-            <figure>
-                <img src="assets/images/cards/grass.png" alt="${pokemon.types}">
-                <img src="assets/images/cards/poison.png" alt="${pokemon.types}">
+            <figure>             
+                ${pokemon.types.map((type) => `<img src="assets/images/cards/${type}.png" alt="${type}">`).join('')}
             </figure>
+            
+                    
+            
         </div>
         <figure><img src="${pokemon.photo}" alt="${pokemon.name}" class="${pokemon.type}"></figure>
     </li>
