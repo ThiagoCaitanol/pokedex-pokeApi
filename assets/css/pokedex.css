@@ -48,6 +48,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .grass {
@@ -58,7 +59,8 @@ li  {
     background-position: center;
     border: 1px solid transparent;
     border-radius: 8px;
-    height: 100%;
+    height: 100%;  
+    max-width: 6rem;
 }
 
 .fire {
@@ -70,6 +72,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .water {
@@ -81,6 +84,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .electric {
@@ -92,6 +96,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .ice {
@@ -103,6 +108,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .ground {
@@ -114,6 +120,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .flying {
@@ -125,6 +132,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .poison {
@@ -136,6 +144,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .fighting {
@@ -147,6 +156,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .psychic {
@@ -158,6 +168,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .dark {
@@ -169,6 +180,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .rock {
@@ -180,6 +192,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .bug {
@@ -191,6 +204,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .ghost {
@@ -202,6 +216,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .steel {
@@ -213,6 +228,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .dragon {
@@ -224,6 +240,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 .fairy {
@@ -235,6 +252,7 @@ li  {
     border: 1px solid transparent;
     border-radius: 8px;
     height: 100%;
+    max-width: 6rem;
 }
 
 
