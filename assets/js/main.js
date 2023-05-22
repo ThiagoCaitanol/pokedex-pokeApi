@@ -1,4 +1,4 @@
-const maxRecords = 151;
+const maxRecords = 999;
 let offset = 0;
 const limit= 10;
 const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
@@ -15,10 +15,7 @@ function convertPokemonToLi(pokemon) {
             <h3>${pokemon.name}</h3>
             <figure>             
                 ${pokemon.types.map((type) => `<img src="assets/images/cards/${type}.png" alt="${type}">`).join('')}
-            </figure>
-            
-                    
-            
+            </figure>   
         </div>
         <figure><img src="${pokemon.photo}" alt="${pokemon.name}" class="${pokemon.type}"></figure>
     </li>
