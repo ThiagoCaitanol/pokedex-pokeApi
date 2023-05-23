@@ -1,4 +1,4 @@
-<img src="assets/images/readme-images/Poke.png">
+<img src="assets/images/readme-images/Poke.png" align="center">
 
 <h1 align="center">PokeAPI</h1>
 <p align="center">Este repositório contém uma aplicação web que consome a PokeAPI, uma API pública que fornece dados sobre Pokémon, como seus nomes e tipos. A aplicação exibe os dados dos Pokémon em um formato amigável e interativo, permitindo que os usuários explorem e conheçam mais sobre essas criaturas incríveis. O projeto foi criado com o objetivo de aprimorar minhas habilidades em HTML, CSS puro e responsividade. O projeto utiliza as metodologias de design responsivo e mobile first para garantir uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops.</p>
