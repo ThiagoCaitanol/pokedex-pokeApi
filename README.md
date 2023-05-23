@@ -1,10 +1,10 @@
 <img src="assets/images/readme-images/Poke.png">
 
 <h1 align="center">PokeAPI</h1>
-<p align="center">Este repositório contém uma aplicação web que consome a PokeAPI, uma API pública que fornece dados sobre Pokémon, como seus nomes, tipos, habilidades, estatísticas e muito mais. A aplicação exibe os dados dos Pokémon em um formato amigável e interativo, permitindo que os usuários explorem e conheçam mais sobre essas criaturas incríveis. O projeto foi criado com o objetivo de aprimorar minhas habilidades em HTML, CSS puro e responsividade. O projeto utiliza as metodologias de design responsivo e mobile first para garantir uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops.</p>
+<p align="center">Este repositório contém uma aplicação web que consome a PokeAPI, uma API pública que fornece dados sobre Pokémon, como seus nomes e tipos. A aplicação exibe os dados dos Pokémon em um formato amigável e interativo, permitindo que os usuários explorem e conheçam mais sobre essas criaturas incríveis. O projeto foi criado com o objetivo de aprimorar minhas habilidades em HTML, CSS puro e responsividade. O projeto utiliza as metodologias de design responsivo e mobile first para garantir uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops.</p>
 
 <p align="center">
-  <img src="assets/images/readme-images/" alt="Exemplo de projeto" />
+  <img src="assets/images/readme-images/exemplo.jpg" alt="Exemplo de projeto" />
 </p>
 <h2>Tecnologias Utilizadas</h2>
 <ul>
@@ -15,7 +15,7 @@
 <h2>Funcionalidades</h2>
 <ul>
     <li>A responsividade foi implementada utilizando a metodologia Mobile First, o que significa que o layout e o design da página foram desenvolvidos pensando primeiro nos dispositivos móveis.</li>
-    <li>Exibição de informações detalhadas sobre cada Pokémon, incluindo nome, tipos, habilidades, estatísticas e imagem.</li>
+    <li>Exibição de informações detalhadas sobre cada Pokémon, incluindo nome, tipos e imagem.</li>
     <li>Uso de elementos HTML semânticos para estruturar corretamente o conteúdo, proporcionando uma acessibilidade adequada e melhorando a otimização para mecanismos de busca.</li>
     <li>Utilização de técnicas de design modernas, como o uso de flexbox e grid para criar um layout flexível e responsivo.</li>
 </ul>
